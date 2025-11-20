@@ -11,9 +11,9 @@ interface User {
 }
 
 const mockUsers: User[] = [
-  { id: '1', name: 'John Doe', email: 'john@aims.com', roles: ['Admin', 'Product Manager'], status: 'Active' },
+  { id: '1', name: 'John Doe', email: 'john@aims.com', roles: ['Admin'], status: 'Active' },
   { id: '2', name: 'Jane Smith', email: 'jane@aims.com', roles: ['Product Manager'], status: 'Active' },
-  { id: '3', name: 'Bob Johnson', email: 'bob@aims.com', roles: ['User'], status: 'Blocked' },
+  { id: '3', name: 'Bob Johnson', email: 'bob@aims.com', roles: ['Product Manager'], status: 'Blocked' },
 ];
 
 export default function UserManagement() {

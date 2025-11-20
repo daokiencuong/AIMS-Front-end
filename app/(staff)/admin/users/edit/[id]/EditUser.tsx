@@ -123,7 +123,7 @@ export default function EditUser({ userId }: { userId: string }) {
         <Button
           variant="outline"
           onClick={() => router.push('/admin/users')}
-          className="rounded-lg"
+          className="rounded-lg px-8 py-6"
         >
           Cancel
         </Button>
