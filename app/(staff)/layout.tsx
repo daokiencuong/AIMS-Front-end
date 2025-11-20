@@ -1,5 +1,5 @@
 import AdminHeader from '@/src/components/AdminHeader';
-import Sidebar from '@/src/components/Sidebar';
+import Sidebar from '@/src/components/sidebar';
 import React from 'react';
 
 export default function AdminLayout({
