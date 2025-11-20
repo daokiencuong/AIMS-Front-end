@@ -1,13 +1,13 @@
 'use client';
-import { Button } from '@/src/components/button';
-import { Input } from '@/src/components/input';
-import { Label } from '@/src/components/label';
+import { Button } from '@/src/components/ui/button';
+import { Input } from '@/src/components/ui/input';
+import { Label } from '@/src/components/ui/label';
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from '@/src/components/tabs';
+} from '@/src/components/ui/tabs';
 import { useCart } from '@/src/context/CartContext';
 import { CreditCard, QrCode } from 'lucide-react';
 import { useRouter } from 'next/navigation';

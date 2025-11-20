@@ -1,15 +1,15 @@
 'use client';
-import { Button } from '@/src/components/button';
-import { Input } from '@/src/components/input';
-import { Label } from '@/src/components/label';
+import { Button } from '@/src/components/ui/button';
+import { Input } from '@/src/components/ui/input';
+import { Label } from '@/src/components/ui/label';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/src/components/select';
-import { Textarea } from '@/src/components/textarea';
+} from '@/src/components/ui/select';
+import { Textarea } from '@/src/components/ui/textarea';
 import { useCart } from '@/src/context/CartContext';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';

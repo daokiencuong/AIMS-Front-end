@@ -1,6 +1,6 @@
 'use client';
-import { Button } from '@/src/components/button';
-import { Input } from '@/src/components/input';
+import { Button } from '@/src/components/ui/button';
+import { Input } from '@/src/components/ui/input';
 import { useCart } from '@/src/context/CartContext';
 import { Search, ShoppingCart } from 'lucide-react';
 import Link from 'next/link';

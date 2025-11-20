@@ -1,12 +1,12 @@
-"use client";
-import { Button } from "@/src/components/button";
-import { Checkbox } from "@/src/components/checkbox";
-import { ImageWithFallback } from "@/src/components/ImageWithFallback";
-import { Label } from "@/src/components/label";
-import { useCart } from "@/src/context/CartContext";
-import { ShoppingCart } from "lucide-react";
-import { useRouter, useSearchParams } from "next/navigation";
-import { useState } from "react";
+'use client';
+import { Button } from '@/src/components/ui/button';
+import { Checkbox } from '@/src/components/ui/checkbox';
+import { ImageWithFallback } from '@/src/components/ui/ImageWithFallback';
+import { Label } from '@/src/components/ui/label';
+import { useCart } from '@/src/context/CartContext';
+import { ShoppingCart } from 'lucide-react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { useState } from 'react';
 
 const mockProducts = [
   {

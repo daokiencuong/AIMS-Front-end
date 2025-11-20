@@ -1,7 +1,7 @@
 'use client';
-import { Button } from '@/src/components/button';
-import { ImageWithFallback } from '@/src/components/ImageWithFallback';
-import { Input } from '@/src/components/input';
+import { Button } from '@/src/components/ui/button';
+import { ImageWithFallback } from '@/src/components/ui/ImageWithFallback';
+import { Input } from '@/src/components/ui/input';
 import { useCart } from '@/src/context/CartContext';
 import { Trash2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
